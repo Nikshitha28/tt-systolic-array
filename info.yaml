@@ -1,11 +1,11 @@
 # Tiny Tapeout project information
 project:
-  title:        ""       4x4 Systolic Array Accelerator
-  author:       ""       Sainikshitha Muthireddy
-  discord:      ""      
-  description:  ""       "Int8 matrix multiplication using a systolic array"
-  language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     50000000      # Clock frequency in Hz (or 0 if not applicable)
+  title:        "4x4 Systolic Array Accelerator"
+  author:       "Sainikshitha Muthireddy"
+  discord:      ""
+  description:  "Int8 matrix multiplication using a systolic array"
+  language:     "Verilog"
+  clock_hz:     50000000
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
